@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.reviews.FXMLListReviewsController">
+   <children>
+      <ListView fx:id="reviewList" layoutX="29.0" layoutY="89.0" onMouseClicked="#moreInfo" prefHeight="636.0" prefWidth="537.0" />
+      <Label layoutX="29.0" layoutY="73.0" text="Reviews List" />
+      <Label layoutX="29.0" layoutY="38.0" text="ACME WEB STORE" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cbChoose" layoutX="743.0" layoutY="104.0" onAction="#cbShowChoose" prefHeight="25.0" prefWidth="193.0" />
+      <ComboBox fx:id="cbItem" layoutX="786.0" layoutY="183.0" prefWidth="150.0" />
+      <ComboBox fx:id="cbCustomer" layoutX="786.0" layoutY="270.0" prefWidth="150.0" />
+      <ComboBox fx:id="cbRating" layoutX="786.0" layoutY="354.0" prefWidth="150.0" />
+      <Label layoutX="743.0" layoutY="82.0" text="List by:" />
+      <Label fx:id="lbItem" layoutX="786.0" layoutY="166.0" text="Choose item:" />
+      <Label fx:id="lbCustomer" layoutX="786.0" layoutY="253.0" text="Choose Customer:" />
+      <Label fx:id="lbRating" layoutX="786.0" layoutY="337.0" text="Choose rating:" />
+      <Button layoutX="883.0" layoutY="469.0" mnemonicParsing="false" onAction="#btnSearch" text="Search" />
+   </children>
+</AnchorPane>

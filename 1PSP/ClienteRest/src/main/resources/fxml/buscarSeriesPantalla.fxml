@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BuscarSeriesPantalla">
+    <Button layoutX="196.0" layoutY="24.0" mnemonicParsing="false" onAction="#buscarSerie" text="Buscar" />
+    <TextField fx:id="tfNombreSerie" layoutX="36.0" layoutY="24.0" />
+    <Label layoutX="32.0" layoutY="190.0" text="Título:" />
+    <Label layoutX="32.0" layoutY="210.0" text="Título Original:" />
+    <Label layoutX="32.0" layoutY="250.0" text="Número de temporadas:" />
+    <Label layoutX="32.0" layoutY="290.0" text="Género:" />
+    <Label layoutX="32.0" layoutY="490.0" text="Compañías:" />
+    <Label layoutX="32.0" layoutY="230.0" text="Lenguaje Original:" />
+    <Label layoutX="32.0" layoutY="380.0" text="Creado por:" />
+    <Label layoutX="32.0" layoutY="270.0" text="Número de capítulos:" />
+    <Label layoutX="540.0" layoutY="392.0" text="Sipnosis:" />
+    <Label layoutX="36.0" layoutY="609.0" text="Sitio web:" />
+    <Label layoutX="36.0" layoutY="639.0" text="Estatus de la serie:" />
+    <ListView fx:id="lvGenero" layoutX="112.0" layoutY="290.0" prefHeight="80.0" prefWidth="192.0" />
+    <ListView fx:id="lvCreadoPor" layoutX="112.0" layoutY="380.0" prefHeight="100.0" prefWidth="192.0" />
+    <Label fx:id="lbTitulo" layoutX="67.0" layoutY="190.0" prefHeight="17.0" prefWidth="271.0" />
+    <Label fx:id="lbTituloOriginal" layoutX="112.0" layoutY="210.0" prefHeight="17.0" prefWidth="192.0" />
+    <Label fx:id="lbLenguajeOriginal" layoutX="132.0" layoutY="230.0" prefHeight="17.0" prefWidth="192.0" />
+    <Label fx:id="lbNumTemporadas" layoutX="167.0" layoutY="250.0" prefHeight="17.0" prefWidth="136.0" />
+    <Label fx:id="lbNumCapitulos" layoutX="148.0" layoutY="270.0" prefHeight="17.0" prefWidth="136.0" />
+    <ListView fx:id="lvCompania" layoutX="112.0" layoutY="490.0" prefHeight="100.0" prefWidth="192.0" />
+    <Label fx:id="lbStatus" layoutX="138.0" layoutY="639.0" prefHeight="17.0" prefWidth="175.0" />
+    <Hyperlink fx:id="hlLink" layoutX="99.0" layoutY="609.0" prefHeight="23.0" prefWidth="214.0" />
+    <Label fx:id="lbSipnosis" alignment="TOP_LEFT" layoutX="540.0" layoutY="423.0" prefHeight="334.0" prefWidth="426.0" wrapText="true" />
+    <ImageView fx:id="ivPoster" fitHeight="266.0" fitWidth="416.0" layoutX="545.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+    <Button layoutX="336.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnLimpiar" text="Limpiar" textFill="RED" />
+    <Label layoutX="540.0" layoutY="290.0" text="Emitido por:" />
+    <ListView fx:id="lvEmitidoPor" layoutX="624.0" layoutY="290.0" prefHeight="100.0" prefWidth="200.0" />
+   <ListView fx:id="lvSeriesBuscadas" layoutX="36.0" layoutY="65.0" prefHeight="113.0" prefWidth="369.0" />
+   <Button layoutX="419.0" layoutY="153.0" mnemonicParsing="false" onAction="#mostrarSerie" text="Buscar Seleccionada" />
+</AnchorPane>

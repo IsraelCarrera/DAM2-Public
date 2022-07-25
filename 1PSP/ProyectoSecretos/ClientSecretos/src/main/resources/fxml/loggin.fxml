@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.clientsecretos.gui.controllers.Loggin">
+   <children>
+      <TextField fx:id="tfNombreLog" layoutX="117.0" layoutY="310.0" />
+      <PasswordField fx:id="tfPassLog" layoutX="117.0" layoutY="363.0" />
+      <Label layoutX="65.0" layoutY="314.0" text="Nombre:" />
+      <Label layoutX="62.0" layoutY="367.0" text="Password:" />
+      <Button layoutX="210.0" layoutY="416.0" mnemonicParsing="false" onAction="#irEntrar" text="Entrar" textFill="#50c935" />
+      <Button layoutX="777.0" layoutY="429.0" mnemonicParsing="false" onAction="#crearCuenta" text="CREAR CUENTA!!" />
+      <TextField fx:id="tfNombreCrear" layoutX="756.0" layoutY="316.0" />
+      <TextField fx:id="tfPassCrear" layoutX="756.0" layoutY="369.0" />
+      <Label layoutX="697.0" layoutY="320.0" text="Nombre:" />
+      <Label layoutX="691.0" layoutY="373.0" text="Password:" />
+      <Label layoutX="65.0" layoutY="247.0" text="ENTRAR EN LA APP">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="732.0" layoutY="258.0" text="CREAR CUENTA" textFill="#dd1919">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

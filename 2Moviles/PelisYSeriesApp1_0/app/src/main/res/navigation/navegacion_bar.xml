@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacion_bar"
+    app:startDestination="@id/estarFavoritosFragment">
+
+    <fragment
+        android:id="@+id/buscarPelisFragment"
+        android:name="com.example.pelisyseriesapp.ui.buscarPelis.BuscarPelisFragment"
+        android:label="Buscar películas"
+        tools:layout="@layout/fragment_buscar_pelis">
+        <action
+            android:id="@+id/action_buscarPelisFragment_to_buscarSeriesFragment"
+            app:destination="@id/buscarSeriesFragment" />
+        <action
+            android:id="@+id/action_buscarPelisFragment_to_estarFavoritosFragment"
+            app:destination="@id/estarFavoritosFragment" />
+        <action
+            android:id="@+id/action_buscarPelisFragment_to_buscarPelisDetallada"
+            app:destination="@id/buscarPelisDetallada" />
+    </fragment>
+    <fragment
+        android:id="@+id/estarFavoritosFragment"
+        android:name="com.example.pelisyseriesapp.ui.favoritos.EstarFavoritosFragment"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_estar_favoritos">
+        <action
+            android:id="@+id/action_estarFavoritosFragment_to_buscarPelisFragment"
+            app:destination="@id/buscarPelisFragment" />
+        <action
+            android:id="@+id/action_estarFavoritosFragment_to_buscarSeriesFragment"
+            app:destination="@id/buscarSeriesFragment" />
+        <action
+            android:id="@+id/action_estarFavoritosFragment_to_buscarPelisDetallada"
+            app:destination="@id/buscarPelisDetallada" />
+        <action
+            android:id="@+id/action_estarFavoritosFragment_to_buscarSeriesDetallada"
+            app:destination="@id/buscarSeriesDetallada" />
+    </fragment>
+    <fragment
+        android:id="@+id/buscarSeriesFragment"
+        android:name="com.example.pelisyseriesapp.ui.buscarSeries.BuscarSeriesFragment"
+        android:label="buscar series"
+        tools:layout="@layout/fragment_buscar_series">
+        <action
+            android:id="@+id/action_buscarSeriesFragment_to_buscarPelisFragment"
+            app:destination="@id/buscarPelisFragment" />
+        <action
+            android:id="@+id/action_buscarSeriesFragment_to_estarFavoritosFragment"
+            app:destination="@id/estarFavoritosFragment" />
+        <action
+            android:id="@+id/action_buscarSeriesFragment_to_buscarSeriesDetallada"
+            app:destination="@id/buscarSeriesDetallada" />
+    </fragment>
+    <fragment
+        android:id="@+id/buscarPelisDetallada"
+        android:name="com.example.pelisyseriesapp.ui.buscaDetalladaPeli.BuscarPelisDetallada"
+        android:label="Más info película"
+        tools:layout="@layout/fragment_buscar_pelis_detallada">
+        <argument
+            android:name="idPeli"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/buscarSeriesDetallada"
+        android:name="com.example.pelisyseriesapp.ui.buscaDetalladaSerie.BuscarSeriesDetallada"
+        android:label="Más info series"
+        tools:layout="@layout/fragment_buscar_series_detallada">
+        <argument
+            android:name="id"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_buscarSeriesDetallada_to_verCapitulosTemporada"
+            app:destination="@id/verCapitulosTemporada" />
+    </fragment>
+    <fragment
+        android:id="@+id/verCapitulosTemporada"
+        android:name="com.example.pelisyseriesapp.ui.verCapitulosTemporada.VerCapitulosTemporada"
+        android:label="Información de la temporada"
+        tools:layout="@layout/fragment_ver_capitulos_temporada">
+        <argument
+            android:name="temporadaVer"
+            app:argType="com.example.pelisyseriesapp.domain.Temporada"
+            app:nullable="true" />
+    </fragment>
+</navigation>

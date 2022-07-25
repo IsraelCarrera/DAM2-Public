@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.reviews.FXMLAddReviewController">
+   <children>
+      <ListView fx:id="clientBox" layoutX="29.0" layoutY="88.0" onMouseClicked="#loadPurchases" prefHeight="280.0" prefWidth="165.0" />
+      <Button layoutX="399.0" layoutY="342.0" mnemonicParsing="false" onAction="#addReview" prefHeight="25.0" prefWidth="181.0" text="Send review" />
+      <Label layoutX="402.0" layoutY="85.0" text="Item rating (*)" />
+      <Label layoutX="401.0" layoutY="170.0" text="Write a comment here:" />
+      <Label layoutX="29.0" layoutY="67.0" text="1) Select a customer (*)" />
+      <Label layoutX="28.0" layoutY="30.0" text="ADD A NEW REVIEW" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textBox" layoutX="399.0" layoutY="188.0" prefHeight="155.0" prefWidth="181.0" />
+      <ListView fx:id="purchaseBox" layoutX="210.0" layoutY="88.0" prefHeight="280.0" prefWidth="165.0" />
+      <Label layoutX="210.0" layoutY="67.0" text="2) Select a purchase (*)" />
+      <Label layoutX="195.0" layoutY="202.0" text="+">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="ratingBox" layoutX="399.0" layoutY="101.0" prefHeight="17.0" prefWidth="181.0" />
+      <Label layoutX="402.0" layoutY="129.0" text="Title" />
+      <TextField fx:id="titleBox" layoutX="399.0" layoutY="143.0" prefHeight="25.0" prefWidth="181.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+package com.example.examen1ev.data;
+
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
+import com.example.examen1ev.data.modelo.MensajesEntidad;
+import com.example.examen1ev.data.modelo.PuntosEntidad;
+
+@androidx.room.Database(entities = {com.example.examen1ev.data.modelo.PuntosEntidad.class, com.example.examen1ev.data.modelo.MensajesEntidad.class}, version = 5, exportSchema = true)
+@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\b\'\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\b\u0010\u0003\u001a\u00020\u0004H&\u00a8\u0006\u0005"}, d2 = {"Lcom/example/examen1ev/data/PuntosDatabaseRoom;", "Landroidx/room/RoomDatabase;", "()V", "puntosDao", "Lcom/example/examen1ev/data/PuntosDao;", "app_debug"})
+public abstract class PuntosDatabaseRoom extends androidx.room.RoomDatabase {
+    
+    public PuntosDatabaseRoom() {
+        super();
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public abstract com.example.examen1ev.data.PuntosDao puntosDao();
+}

@@ -1,0 +1,7 @@
+ruta: jdbc:mysql://dam2.mysql.iesquevedo.es:3335/israelcarreramanzaneque_basket?useSSL=false
+user_bd: root
+password_bd: quevedo2dam
+driver: com.mysql.cj.jdbc.Driver
+host: smtp.gmail.com
+user_mail: pruebadamquevedo@gmail.com
+password_mail: Root1234

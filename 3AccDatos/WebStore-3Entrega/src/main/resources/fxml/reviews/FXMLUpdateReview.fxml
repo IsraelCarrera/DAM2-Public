@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.reviews.FXMLUpdateReviewController">
+   <children>
+      <Button layoutX="399.0" layoutY="342.0" mnemonicParsing="false" onAction="#updateReview" prefHeight="25.0" prefWidth="181.0" text="Update review" />
+      <Label layoutX="402.0" layoutY="85.0" text="Item rating (*)" />
+      <Label layoutX="401.0" layoutY="170.0" text="Write a comment here:" />
+      <Label layoutX="28.0" layoutY="30.0" text="UPDATE A REVIEW" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textBox" layoutX="399.0" layoutY="188.0" prefHeight="155.0" prefWidth="181.0" />
+      <ListView fx:id="reviewBox" layoutX="29.0" layoutY="88.0" onMouseClicked="#printDates" prefHeight="280.0" prefWidth="346.0" />
+      <Label layoutX="30.0" layoutY="67.0" prefHeight="17.0" prefWidth="163.0" text="Select a Review to update" />
+      <ComboBox fx:id="ratingBox" layoutX="399.0" layoutY="101.0" prefHeight="17.0" prefWidth="181.0" />
+      <Label layoutX="402.0" layoutY="129.0" text="Title" />
+      <TextField fx:id="titleBox" layoutX="399.0" layoutY="143.0" prefHeight="25.0" prefWidth="181.0" />
+   </children>
+</AnchorPane>

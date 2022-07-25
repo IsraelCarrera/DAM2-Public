@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ViewPantalla">
+   <children>
+      <ListView fx:id="lvVerPersonas" layoutX="46.0" layoutY="87.0" prefHeight="227.0" prefWidth="508.0" />
+      <Label layoutX="52.0" layoutY="14.0" prefHeight="40.0" prefWidth="497.0" text="TABLA DE VISUALIZACIÓN DE PERSONAS REGISTRADAS" textAlignment="CENTER" textFill="#eb0707" textOverrun="CENTER_WORD_ELLIPSIS">
+         <effect>
+            <Bloom />
+         </effect>
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cbSelecSexo" layoutX="339.0" layoutY="54.0" onAction="#cbBuscarPersona" prefWidth="150.0" />
+      <Label layoutX="209.0" layoutY="58.0" text="Indique qué desea ver: " />
+   </children>
+</AnchorPane>

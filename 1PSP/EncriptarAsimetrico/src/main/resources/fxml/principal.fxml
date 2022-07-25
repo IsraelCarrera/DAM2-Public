@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.encriptarasimetrico.gui.Principal">
+   <children>
+      <ListView fx:id="lvSecretosDescrifados" layoutX="543.0" layoutY="77.0" prefHeight="642.0" prefWidth="423.0" />
+      <Button layoutX="358.0" layoutY="515.0" mnemonicParsing="false" onAction="#consultarSecreto" text="Consultar" textFill="#bf2c2c" />
+      <Button layoutX="289.0" layoutY="515.0" mnemonicParsing="false" onAction="#agregarSecreto" text="Escribir" textFill="#18a41d" />
+      <TextArea fx:id="tfSecretoDescifrar" layoutX="60.0" layoutY="353.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="tfNombreUsuario" layoutX="329.0" layoutY="328.0" />
+      <Label layoutX="329.0" layoutY="301.0" text="Usuario" />
+      <Label layoutX="60.0" layoutY="336.0" text="Secreto a descifrar:" />
+      <Label layoutX="543.0" layoutY="60.0" text="Secretos descrifados:" />
+      <Label layoutX="329.0" layoutY="425.0" text="Compartir con:" />
+      <Button layoutX="448.0" layoutY="515.0" mnemonicParsing="false" onAction="#compartirConSelect" text="Compartir" />
+      <ComboBox fx:id="cbUserApp" layoutX="333.0" layoutY="453.0" prefWidth="150.0" />
+      <TextField fx:id="tfPass" layoutX="329.0" layoutY="388.0" />
+      <Label layoutX="329.0" layoutY="363.0" text="Pass" />
+   </children>
+</AnchorPane>

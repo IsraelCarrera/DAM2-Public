@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientbasket.gui.controllers.Cuenta">
+    <children>
+        <Label layoutX="271.0" layoutY="271.0" text="Si desea cambiar la contraseña, dale click aquí:"/>
+        <Label layoutX="290.0" layoutY="326.0" text="Si desea eliminar su cuenta, dale click aquí:"/>
+        <Button layoutX="522.0" layoutY="267.0" mnemonicParsing="false" onAction="#cambiarPass"
+                text="Cambiar Contraseña"/>
+        <Button layoutX="522.0" layoutY="322.0" mnemonicParsing="false" onAction="#eliminarCuenta"
+                text="Eliminar Cuenta" textFill="#fc0000"/>
+        <Label layoutX="334.0" layoutY="56.0" text="MODIFICAR CUENTA">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

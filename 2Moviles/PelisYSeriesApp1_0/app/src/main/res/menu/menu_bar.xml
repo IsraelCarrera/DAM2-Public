@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/buscarPelisFragment"
+        android:title="@string/ir_a_buscar_pelis"
+        app:showAsAction="never" />
+    <!-- EL ifroom sirve para si hay espacio, que se muestre el icono, sino, en texto -->
+    <item
+        android:id="@+id/buscarSeriesFragment"
+        android:title="@string/ir_a_buscar_series"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/estarFavoritosFragment"
+        android:title="@string/ir_a_favoritos"
+        app:showAsAction="never" />
+</menu>

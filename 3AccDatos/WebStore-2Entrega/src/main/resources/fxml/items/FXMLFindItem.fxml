@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.items.FXMLFindItemController">
+   <children>
+      <Button layoutX="437.0" layoutY="203.0" mnemonicParsing="false" onAction="#searchById" text="Search by ID" />
+      <Label layoutX="30.0" layoutY="67.0" text="Item information" />
+      <Label layoutX="434.0" layoutY="145.0" text="Item ID" textFill="#000000b6" />
+      <ListView fx:id="itemList" layoutX="30.0" layoutY="84.0" prefHeight="288.0" prefWidth="398.0" />
+      <Label layoutX="30.0" layoutY="31.0" text="FIND ITEM BY  ID" textFill="#000000c0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idBox" layoutX="433.0" layoutY="166.0" />
+   </children>
+</AnchorPane>

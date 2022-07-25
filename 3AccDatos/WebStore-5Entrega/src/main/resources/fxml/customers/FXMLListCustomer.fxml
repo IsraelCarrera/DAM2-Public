@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.customers.FXMLListCustomerController">
+   <children>
+      <ListView fx:id="customerList" layoutX="29.0" layoutY="89.0" onMouseClicked="#showInfo" prefHeight="665.0" prefWidth="312.0" />
+      <Label layoutX="29.0" layoutY="73.0" text="Customers list:" />
+      <Label layoutX="29.0" layoutY="38.0" text="ACME WEB STORE" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPhone" layoutX="480.0" layoutY="170.0" prefHeight="25.0" prefWidth="160.0" />
+      <TextField fx:id="tfAddress" layoutX="480.0" layoutY="212.0" prefHeight="94.0" prefWidth="160.0" />
+      <ListView fx:id="lvPurchases" layoutX="360.0" layoutY="333.0" onMouseClicked="#showInfoPurchase" prefHeight="433.0" prefWidth="336.0" />
+      <Label layoutX="480.0" layoutY="153.0" text="Phone:" />
+      <Label layoutX="480.0" layoutY="195.0" text="Address:" />
+      <Label layoutX="360.0" layoutY="316.0" text="Purchase Lists:" />
+      <TextField fx:id="tfName" layoutX="480.0" layoutY="121.0" prefHeight="25.0" prefWidth="160.0" />
+      <Label layoutX="480.0" layoutY="104.0" text="Name:" />
+      <Label layoutX="708.0" layoutY="333.0" text="id Purchase:" />
+      <Label layoutX="708.0" layoutY="350.0" text="Item name:" />
+      <Label layoutX="708.0" layoutY="367.0" text="Date: " />
+      <Label layoutX="710.0" layoutY="384.0" text="Review:" />
+      <Label fx:id="lbIdPurchase" layoutX="772.0" layoutY="333.0" />
+      <Label fx:id="lbItemName" layoutX="772.0" layoutY="350.0" />
+      <Label fx:id="lbDate" layoutX="740.0" layoutY="367.0" />
+      <Label fx:id="lbReview" layoutX="710.0" layoutY="401.0" prefHeight="259.0" prefWidth="263.0" wrapText="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pantallaCUD</string>
+    <string name="nombre">Nombre</string>
+    <string name="pass">Contraseña</string>
+    <string name="tlfn">Telefono</string>
+    <string name="mail">Correo Electrónico</string>
+    <string name="hm">Hombre</string>
+    <string name="mj">Mujer</string>
+    <string name="consola">Consola</string>
+    <string name="pc">Ordenador</string>
+    <string name="pickSexo">Sexo: </string>
+    <string name="pickPlay">Lugar habitual de jugar: </string>
+    <string name="add">Add</string>
+    <string name="del">Del</string>
+    <string name="upd">Upd</string>
+    <string name="suscribe">Suscribirse</string>
+    <string name="verLista">lista</string>
+    <string name="juegaPcConsolas">juega en: ordenador y consola.</string>
+    <string name="juegaPc">juega en: ordenador.</string>
+    <string name="juegaConsola">juega en: consola.</string>
+    <string name="noJuega">No juega en ninguna plataforma.</string>
+    <string name="persona">persona</string>
+
+</resources>

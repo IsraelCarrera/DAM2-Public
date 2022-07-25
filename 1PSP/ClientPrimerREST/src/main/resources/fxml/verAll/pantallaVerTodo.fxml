@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.verAll.PantallaVerTodo">
+    <children>
+        <ListView fx:id="lvEmpresas" layoutX="33.0" layoutY="77.0" prefHeight="168.0" prefWidth="715.0"/>
+        <ListView fx:id="lvTrabajadores" layoutX="39.0" layoutY="306.0" prefHeight="196.0" prefWidth="709.0"/>
+        <Label layoutX="39.0" layoutY="51.0" text="Empresas:"/>
+        <Label layoutX="39.0" layoutY="282.0" text="Trabajadores:"/>
+        <Button layoutX="342.0" layoutY="257.0" mnemonicParsing="false" onAction="#verTrabajadores"
+                text="Ver trabajadores"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientbasket.gui.controllers.cuenta.Registro">
+    <children>
+        <Label layoutX="313.0" layoutY="37.0" text="Registrarse en la APP">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="tfNombreUsuario" layoutX="406.0" layoutY="128.0"/>
+        <TextField fx:id="tfCorreo" layoutX="406.0" layoutY="242.0"/>
+        <PasswordField fx:id="tfPass" layoutX="406.0" layoutY="164.0"/>
+        <PasswordField fx:id="tfRepitePass" layoutX="406.0" layoutY="204.0"/>
+        <Label layoutX="289.0" layoutY="132.0" text="Nombre de usuario:"/>
+        <Label layoutX="332.0" layoutY="168.0" text="Contraseña:"/>
+        <Label layoutX="287.0" layoutY="208.0" text="Repite la contraseña:"/>
+        <Label layoutX="292.0" layoutY="246.0" text="Correo electrónico:"/>
+        <Button layoutX="481.0" layoutY="301.0" mnemonicParsing="false" onAction="#hacerRegistro" text="Registrarse"/>
+        <Button layoutX="238.0" layoutY="301.0" mnemonicParsing="false" onAction="#volverAlLogging"
+                text="Volver al Logging"/>
+    </children>
+</AnchorPane>

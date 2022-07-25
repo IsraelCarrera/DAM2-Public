@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientbasket.gui.controllers.basket.CambiarEquipo">
+    <children>
+        <ListView fx:id="lvEquipo" layoutX="100.0" layoutY="160.0" onMouseClicked="#pasarDatos" prefHeight="457.0"
+                  prefWidth="298.0"/>
+        <Label layoutX="450.0" layoutY="210.0" text="Nombre del equipo:"/>
+        <TextField fx:id="tfNombreEquipo" layoutX="567.0" layoutY="206.0"/>
+        <Button layoutX="424.0" layoutY="462.0" mnemonicParsing="false" onAction="#addEquipo" text="Añadir equipo"/>
+        <Button layoutX="543.0" layoutY="462.0" mnemonicParsing="false" onAction="#updateEquipo" text="Cambiar Nombre"/>
+        <Button layoutX="690.0" layoutY="462.0" mnemonicParsing="false" onAction="#deleteEquipo" text="Eliminar equipo"
+                textFill="RED"/>
+        <Label layoutX="100.0" layoutY="143.0" text="Lista de equipos integrados en la app:"/>
+        <Label layoutX="248.0" layoutY="53.0" text="ADD/UPDATE/DELETE EQUIPOS">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

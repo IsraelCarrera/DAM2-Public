@@ -1,0 +1,47 @@
+package org.example.clientbasket.gui.utils;
+
+public class Constantes {
+    public static final String BASKET_QUEVEDO_APP = "Basket Quevedo App";
+    public static final String FXML_PRINCIPAL_FXML = "/fxml/principal.fxml";
+    public static final String FXML_ADD_PARTIDOS_FXML = "/fxml/addPartidos.fxml";
+    public static final String FXML_UPDATE_ADMIN_FXML = "/fxml/updateAdmin.fxml";
+    public static final String FXML_CAMBIAR_EQUIPO_FXML = "/fxml/cambiarEquipo.fxml";
+    public static final String FXML_CAMBIAR_PARTIDOS_FXML = "/fxml/cambiarPartidos.fxml";
+    public static final String FXML_CAMBIAR_JORNADAS_FXML = "/fxml/cambiarJornadas.fxml";
+    public static final String FXML_VER_PARTIDOS_FXML = "/fxml/verPartidos.fxml";
+    public static final String FXML_REGISTRO_FXML = "/fxml/registro.fxml";
+    public static final String FXML_LOGGING_FXML = "/fxml/logging.fxml";
+    public static final String FXML_CUENTA_FXML = "/fxml/cuenta.fxml";
+    public static final String FXML_INICIO_FXML = "/fxml/inicio.fxml";
+    public static final String LA_PANTALLA_NO_SE_HA_PASADO_CORRECTAMENTE = "La pantalla no se ha pasado correctamente.";
+    public static final String SE_HA_PROCEDIDO_A_GUARDAR_EL_PARTIDO_CORRECTAMENTE = "Se ha procedido a guardar el partido correctamente.";
+    public static final String UN_EQUIPO_NO_PUEDE_JUGAR_UN_PARTIDO_CONTRA_SI_MISMO_SELECCIONA_OTRO_EQUIPO_CONTRINCANTE = "Un equipo no puede jugar un partido contra sí mismo, selecciona otro equipo contrincante.";
+    public static final String NO_HA_SELECCIONADO_LOS_EQUIPOS_Y_O_LA_JORNADA_SELECCIONALOS = "No ha seleccionado los equipos y/o la jornada, selecciónalos..";
+    public static final String NO_HA_ESCRITO_NUMEROS_EN_EL_CAMPO_DE_LOS_PUNTOS_ESCRIBA_NUMEROS = "No ha escrito números en el campo de los puntos. Escriba números.";
+    public static final String EQUIPO_AGREGADO_CORRECTAMENTE = "Equipo agregado correctamente.";
+    public static final String NO_HAY_NINGUN_NOMBRE_ESCRITO = "No hay ningún nombre escrito.";
+    public static final String EQUIPO_MODIFICADO_CORRECTAMENTE = "Equipo modificado correctamente.";
+    public static final String NO_HAY_NINGUN_NOMBRE_ESCRITO_Y_O_SELECCIONADO = "No hay ningún nombre escrito y/o seleccionado.";
+    public static final String EQUIPO_BORRADO_CORRECTAMENTE = "Equipo borrado correctamente.";
+    public static final String NO_HAY_NINGUN_EQUIPO_SELECCIONADO = "No hay ningún equipo seleccionado.";
+    public static final String JORNADA_ADD_CORRECTAMENTE = "Jornada añadida correctamente.";
+    public static final String NO_HAS_INTRODUCIDO_UNA_FECHA = "No has introducido una fecha.";
+    public static final String JORNADA_MODIFICADA_CORRECTAMENTE = "Jornada modificada correctamente.";
+    public static final String NO_HA_SELECCIONADO_NINGUNA_JORNADA = "No ha seleccionado ninguna jornada.";
+    public static final String JORNADA_BORRADA_CORRECTAMENTE = "Jornada borrada correctamente.";
+    public static final String BIENVENID_A_LA_APPLICACION_DE_BASKET_QUEVEDO = "¡Bienvenid@ a la applicación de BasketQuevedo! ";
+    public static final String PARTIDO_ELIMINADO_CORRECTAMENTE = "Partido eliminado correctamente";
+    public static final String PARTIDO_MODIFICADO_CORRECTAMENTE = "Partido modificado correctamente";
+    public static final String NO_HAS_PUESTO_USUARIO_Y_O_PASS = "No has puesto usuario y/o contraseña.";
+    public static final String ESTAS_SEGURO_DE_QUE_DESEAS_ELIMINAR_LA_CUENTA = "¿Estás seguro de que deseas eliminar la cuenta?";
+    public static final String SU_CUENTA_SE_HA_BORRADO_CON_EXITO = "Su cuenta se ha borrado con éxito.";
+    public static final String NO_SE_HA_PROCEDIDO_A_BORRAR_SU_CUENTA = "No se ha procedido a borrar su cuenta.";
+    public static final String SE_HA_REGISTRADO_EN_LA_APLICACION_CORRECTAMENTE_COMPRUEBE_SU_CORREO = "Se ha registrado en la aplicación correctamente. Compruebe su correo.";
+    public static final String RELLENE_TODOS_LOS_CAMPOS_CORRECTAMENTE = "Rellene todos los campos correctamente.";
+    public static final String ESE_USUARIO_YA_ES_ADMIN = "Ese usuario ya es admin.";
+    public static final String EL_USUARIO_AUN_NO_ESTA_ACTIVO_HASTA_QUE_NO_ESTE_ACTIVO_NO_PODRAS_HACERLE_ADMIN = "El usuario aun no está activo. Hasta que no esté activo no podrás hacerle admin.";
+    public static final String NO_HAS_SELECCIONADO_A_NADIE = "No has seleccionado a nadie.";
+    public static final String EL_USUARIO_HA_SIDO_BORRADO_CORRECTAMENTE = "El usuario ha sido borrado correctamente.";
+    public static final String NO_HA_SELECCIONADO_NINGUN_EQUIPO = "No ha seleccionado ningun equipo.";
+    public static final String UNO_MISMO_NO_PUEDE_BORRARSE_DESDE_AQUI_SI_DESEA_ELIMINAR_SU_CUENTA_ACCEDA_DESDE_MODIFICAR_CUENTA = "Uno mismo NO puede borrarse desde aquí. Si desea eliminar su cuenta, acceda desde \"Modificar cuenta\"";
+}

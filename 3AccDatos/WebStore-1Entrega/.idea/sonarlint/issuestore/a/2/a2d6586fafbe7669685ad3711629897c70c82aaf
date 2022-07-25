@@ -1,0 +1,11 @@
+
+{
+java:S1450F"eRemove the "findCustomerController" field and declare it as a local variable in the relevant methods.(ÑÁþº
+~
+java:S1450Z"aRemove the "findItemController" field and declare it as a local variable in the relevant methods.(›ûâ—8²–‡¯È/
+y
+java:S14508"^Remove the "loginController" field and declare it as a local variable in the relevant methods.(Æöê¤ÿÿÿÿÿ
+P
+java:S1068F":Remove this unused "findCustomerController" private field.(ÑÁþº
+S
+java:S1068Z"6Remove this unused "findItemController" private field.(›ûâ—8è–‡¯È/

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Taller:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Taller_jar</output-path>
+    <root id="archive" name="Taller.jar">
+      <element id="module-output" name="Taller" />
+      <element id="extracted-dir" path="D:/Descargas/JIncidencia.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Descargas/JCocheComponent.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Descargas/JUser.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

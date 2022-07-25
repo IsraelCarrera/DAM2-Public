@@ -1,0 +1,17 @@
+
+a	java:S112š"FDefine and throw a dedicated exception instead of using a generic one.(¬êÀùÿÿÿÿÿ
+\	java:S112¥"FDefine and throw a dedicated exception instead of using a generic one.(’Ôë
+a	java:S112®"FDefine and throw a dedicated exception instead of using a generic one.(¿¼´Äüÿÿÿÿ
+a	java:S112Ä"FDefine and throw a dedicated exception instead of using a generic one.(È­ïüÿÿÿÿ
+œ
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÀĞ™‘ùÿÿÿÿ
+ˆ
+java:S1130š"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¬êÀùÿÿÿÿÿ
+ƒ
+java:S1130¥"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(’Ôë
+ˆ
+java:S1130®"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¿¼´Äüÿÿÿÿ
+N
+java:S1135¸"2Complete the task associated to this TODO comment.(ø½Ò‘øÿÿÿÿ
+ˆ
+java:S1130Ä"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(È­ïüÿÿÿÿ

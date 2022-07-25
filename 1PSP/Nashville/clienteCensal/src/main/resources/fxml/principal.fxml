@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane fx:id="principal" prefHeight="900.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="gui.controllers.Principal">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Return">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#irInicio" text="Ir a pantalla Inicio" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Mudaciones">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#irMudaciones" text="Ir a Mudaciones" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Control de la población">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#irCasamientos" text="Casamientos" />
+              <MenuItem mnemonicParsing="false" onAction="#irNacimientos" text="Nacimientos" />
+                  <MenuItem mnemonicParsing="false" onAction="#irDefunciones" text="Defunciones" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Consultas">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#irConsultas" text="Consultar " />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

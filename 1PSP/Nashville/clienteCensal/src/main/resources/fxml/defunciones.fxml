@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="900.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.Defunciones">
+   <children>
+      <ListView fx:id="lvPersonas" layoutX="54.0" layoutY="87.0" prefHeight="604.0" prefWidth="631.0" />
+      <Button layoutX="792.0" layoutY="308.0" mnemonicParsing="false" onAction="#matarPersona" prefHeight="99.0" prefWidth="120.0" text="Cargarse al seleccionado" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

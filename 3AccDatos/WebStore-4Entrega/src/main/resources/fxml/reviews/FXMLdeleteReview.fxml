@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.reviews.FXMLdeleteReviewController">
+   <children>
+      <Label layoutX="441.0" layoutY="32.0" text="Delete Review" textFill="#000000b9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="342.0" text="Please, select the review you want to remove from the database (*)" textFill="#000000be">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="217.0" layoutY="694.0" mnemonicParsing="false" onAction="#deleteReview" prefHeight="25.0" prefWidth="519.0" text="DELETE" textFill="#a41818">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ListView fx:id="reviewBox" layoutX="43.0" layoutY="371.0" prefHeight="304.0" prefWidth="944.0" />
+      <ListView fx:id="customerBox" layoutX="43.0" layoutY="98.0" onMouseClicked="#loadReviewsList" prefHeight="227.0" prefWidth="944.0" />
+      <Label layoutX="456.0" layoutY="79.0" text="Select a customer (*)" textFill="#000000be">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

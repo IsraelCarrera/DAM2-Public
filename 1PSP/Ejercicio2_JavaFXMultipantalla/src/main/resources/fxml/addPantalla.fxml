@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddPantalla">
+   <children>
+      <TextField fx:id="tfNombre" layoutX="247.0" layoutY="73.0" promptText="Nombre" />
+      <TextField fx:id="tfEdad" layoutX="247.0" layoutY="115.0" promptText="Edad" />
+      <RadioButton fx:id="mujer" layoutX="334.0" layoutY="157.0" mnemonicParsing="false" text="Mujer">
+         <toggleGroup>
+            <ToggleGroup fx:id="sexo" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="hombre" layoutX="247.0" layoutY="157.0" mnemonicParsing="false" text="Hombre" toggleGroup="$sexo" />
+      <DatePicker fx:id="dpFecha" layoutX="238.0" layoutY="188.0" promptText="Fecha de Registro" />
+      <Button layoutX="238.0" layoutY="229.0" mnemonicParsing="false" onAction="#addPersona" text="Añadir" />
+      <Button layoutX="360.0" layoutY="229.0" mnemonicParsing="false" onAction="#limpiarTexto" text="Limpiar" />
+   </children>
+</AnchorPane>

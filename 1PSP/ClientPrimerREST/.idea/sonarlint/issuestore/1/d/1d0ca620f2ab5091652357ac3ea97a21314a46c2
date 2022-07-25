@@ -1,0 +1,11 @@
+
+v
+java:S1450Q"YRemove the "addEmpresa" field and declare it as a local variable in the relevant methods.(©Øë8ˆòµœÔ/
+~
+java:S1450S"\Remove the "updateEmpresa" field and declare it as a local variable in the relevant methods.(»ò±ôüÿÿÿÿ8òÁºœÔ/
+
+java:S1450W"_Remove the "updateTrabajador" field and declare it as a local variable in the relevant methods.(ÈäéÎúÿÿÿÿ8Û®½œÔ/
+v
+java:S1450T"YRemove the "verEmpresa" field and declare it as a local variable in the relevant methods.(èÌªÑ8Š‚»œÔ/
+~
+java:S1450X"\Remove the "verTrabajador" field and declare it as a local variable in the relevant methods.(ä¼¼Äúÿÿÿÿ8Şô½œÔ/

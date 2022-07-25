@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="principal" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PrinciPantalla">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+            <Menu mnemonicParsing="false" text="Inicio">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#volverInicio" text="Pantalla inicial" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Añadir/Modificar">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#irAddPerson" text="Añadir a Persona" />
+                  <MenuItem mnemonicParsing="false" onAction="#irUpdatePerson" text="Modificar Persona" />
+               </items></Menu>
+          <Menu mnemonicParsing="false" text="Ver personas">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#irViewPerson" text=" Ver todas las Personas" />
+               </items></Menu>
+          <Menu mnemonicParsing="false" text="Borrar personas">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#irDeletePerson" text="Borrar Personas" />
+               </items></Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.PersonasEncontrarPantalla">
+    <children>
+        <Button layoutX="236.0" layoutY="37.0" mnemonicParsing="false" onAction="#btnListPersona" text="Buscar" />
+        <TextField fx:id="tfIdPersona" layoutX="79.0" layoutY="37.0" />
+        <Label layoutX="50.0" layoutY="230.0" text="Nombre:" />
+        <ListView fx:id="lvNombres" layoutX="109.0" layoutY="260.0" prefHeight="109.0" prefWidth="274.0" />
+        <Label layoutX="50.0" layoutY="250.0" prefHeight="62.0" prefWidth="59.0" text="También conocido como:" wrapText="true" />
+        <Label fx:id="lbNombre" layoutX="102.0" layoutY="230.0" prefHeight="17.0" prefWidth="289.0" />
+        <Label layoutX="50.0" layoutY="370.0" text="Cumpleaños:" />
+        <Label layoutX="50.0" layoutY="390.0" text="Lugar de nacimiento:" />
+        <Label layoutX="50.0" layoutY="410.0" text="Pagina web:" />
+        <Label layoutX="50.0" layoutY="430.0" text="Bibliografía:" />
+        <Label fx:id="lbBirthday" layoutX="126.0" layoutY="370.0" prefHeight="17.0" prefWidth="274.0" />
+        <Label fx:id="lbLugarNacimiento" layoutX="168.0" layoutY="390.0" prefHeight="17.0" prefWidth="274.0" />
+        <Label fx:id="lbBibliografia" alignment="TOP_LEFT" layoutX="50.0" layoutY="450.0" prefHeight="310.0" prefWidth="803.0" wrapText="true" />
+        <Hyperlink fx:id="hlPagWeb" layoutX="124.0" layoutY="410.0" onAction="#irPagWeb" prefHeight="23.0" prefWidth="274.0" />
+        <ImageView fx:id="ivImagen" fitHeight="286.0" fitWidth="368.0" layoutX="548.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+        <Button layoutX="327.0" layoutY="37.0" mnemonicParsing="false" onAction="#btnLimpiar" text="Limpiar" textFill="#f50000" />
+      <Button layoutX="383.0" layoutY="138.0" mnemonicParsing="false" onAction="#buscarPersona" text="Buscar persona" />
+      <ListView fx:id="lvListaPersonas" layoutX="18.0" layoutY="71.0" prefHeight="159.0" prefWidth="355.0" />
+    </children>
+</AnchorPane>

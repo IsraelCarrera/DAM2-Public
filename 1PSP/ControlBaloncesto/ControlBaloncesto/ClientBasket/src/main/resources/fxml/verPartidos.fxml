@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientbasket.gui.controllers.VerPartidos">
+    <ListView fx:id="lvPartidos" layoutX="74.0" layoutY="162.0" onMouseClicked="#mostrarDatos" prefHeight="527.0" prefWidth="353.0" />
+    <Label layoutX="503.0" layoutY="539.0" text="Equipo visitante:" />
+    <Label layoutX="522.0" layoutY="510.0" text="Equipo local:" />
+    <Label fx:id="lbEquipoLocal" layoutX="598.0" layoutY="510.0" />
+    <Label fx:id="lbEquipoVisitante" layoutX="600.0" layoutY="539.0"/>
+    <Label layoutX="547.0" layoutY="570.0" text="Jornada:" />
+    <Label fx:id="lbJornada" layoutX="600.0" layoutY="570.0" />
+    <Label layoutX="542.0" layoutY="609.0" text="Resultado:" />
+    <Label layoutX="487.0" layoutY="640.0" text="Puntos equipo local:" />
+    <Label layoutX="466.0" layoutY="672.0" text="Puntos equipo visitante:" />
+    <Label layoutX="74.0" layoutY="145.0" text="Listado de partidos:" />
+   <Label fx:id="lbPuntosLocal" layoutX="600.0" layoutY="640.0"/>
+   <Label fx:id="lbPuntosVisitante" layoutX="600.0" layoutY="672.0" />
+   <Button layoutX="606.0" layoutY="162.0" mnemonicParsing="false" onAction="#buscarAllPartidos" text="Buscar" textFill="#0071fc" />
+   <Button layoutX="657.0" layoutY="440.0" mnemonicParsing="false" onAction="#buscarPorJornada" text="Buscar" textFill="#7581bd" />
+   <Button layoutX="920.0" layoutY="440.0" mnemonicParsing="false" onAction="#buscarPorEquipo" text="Buscar" textFill="#1500ff" />
+   <Label layoutX="453.0" layoutY="166.0" text="Buscar todos los partidos:" />
+   <Label layoutX="448.0" layoutY="215.0" text="Buscar por jornada. Seleccione la jornada:" />
+   <ListView fx:id="lvJornada" layoutX="447.0" layoutY="239.0" prefHeight="200.0" prefWidth="200.0" />
+   <ListView fx:id="lvEquipo" layoutX="720.0" layoutY="239.0" prefHeight="200.0" prefWidth="200.0" />
+   <Label layoutX="720.0" layoutY="215.0" text="Buscar por equipo. Seleccione el equipo:" />
+   <Button layoutX="868.0" layoutY="677.0" mnemonicParsing="false" onAction="#limpiarPantalla" text="Limpiar" textFill="#416f2d" />
+    <Label layoutX="382.0" layoutY="63.0" text="VER PARTIDOS">
+        <font>
+            <Font size="36.0" />
+        </font>
+    </Label>
+
+</AnchorPane>

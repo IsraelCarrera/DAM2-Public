@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.empresa.UpdateEmpresa">
+    <children>
+        <Label layoutX="328.0" layoutY="229.0" text="CIF"/>
+        <Label layoutX="306.0" layoutY="269.0" text="Nombre"/>
+        <Label layoutX="296.0" layoutY="309.0" text="Dirección"/>
+        <Label layoutX="229.0" layoutY="353.0" text="Fecha Creacion"/>
+        <TextField fx:id="tfCif" layoutX="353.0" layoutY="225.0"/>
+        <TextField fx:id="tfNombre" layoutX="353.0" layoutY="265.0"/>
+        <TextField fx:id="tfDireccion" layoutX="353.0" layoutY="305.0"/>
+        <Button layoutX="415.0" layoutY="396.0" mnemonicParsing="false" onAction="#updateEmpresa"
+                text="update Empresa"/>
+        <DatePicker fx:id="dpFecha" layoutX="328.0" layoutY="349.0"/>
+        <Label layoutX="196.0" layoutY="46.0" prefHeight="42.0" prefWidth="313.0" text="UPDATE EMPRESA"
+               textFill="#d74a4a">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="tfIdEmpresa" layoutX="289.0" layoutY="116.0"/>
+        <Button layoutX="438.0" layoutY="116.0" mnemonicParsing="false" onAction="#buscarEmpresa" text="buscar"/>
+        <Label layoutX="86.0" layoutY="120.0" text="Indique ID de la empresa a modificar"/>
+    </children>
+</AnchorPane>

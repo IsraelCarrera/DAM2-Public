@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientbasket.gui.controllers.basket.CambiarPartidos">
+   <children>
+      <ListView fx:id="lvPartidos" layoutX="74.0" layoutY="162.0" onMouseClicked="#mostrarDatos" prefHeight="527.0" prefWidth="353.0" />
+      <Label layoutX="516.0" layoutY="226.0" text="Equipo visitante:" />
+      <Label layoutX="535.0" layoutY="197.0" text="Equipo local:" />
+      <Label fx:id="lbEquipoLocal" layoutX="611.0" layoutY="197.0" />
+      <Label fx:id="lbEquipoVisitante" layoutX="613.0" layoutY="226.0" />
+      <Label layoutX="560.0" layoutY="257.0" text="Jornada:" />
+      <Label fx:id="lbJornada" layoutX="613.0" layoutY="257.0" />
+      <Label layoutX="555.0" layoutY="296.0" text="Resultado:" />
+      <Label layoutX="500.0" layoutY="327.0" text="Puntos equipo local:" />
+      <Label layoutX="479.0" layoutY="359.0" text="Puntos equipo visitante:" />
+      <TextField fx:id="tfPuntosEquipoLocal" layoutX="622.0" layoutY="323.0" prefHeight="25.0" prefWidth="45.0" />
+      <TextField fx:id="tfPuntosEquipoVisitante" layoutX="622.0" layoutY="355.0" prefHeight="25.0" prefWidth="45.0" />
+      <Button layoutX="447.0" layoutY="467.0" mnemonicParsing="false" onAction="#borrarPartido" text="Delete Partido" textFill="RED" />
+      <Button layoutX="591.0" layoutY="467.0" mnemonicParsing="false" onAction="#updatePartido" text="Cambiar Marcador" />
+      <Label layoutX="74.0" layoutY="145.0" text="Lista de partidos disponibles en la app:" />
+      <Label layoutX="299.0" layoutY="58.0" text="UPDATE/DELETE PARTIDOS">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="777.0" layoutY="467.0" mnemonicParsing="false" onAction="#borrarDatos" text="Borrar datos" />
+   </children>
+</AnchorPane>

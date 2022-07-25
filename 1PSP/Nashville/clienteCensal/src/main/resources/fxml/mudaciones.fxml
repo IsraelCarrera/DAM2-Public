@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.Mudaciones">
+   <children>
+      <ListView fx:id="lvPersonas" layoutX="34.0" layoutY="110.0" onMouseClicked="#imprimirPersona" prefHeight="635.0" prefWidth="451.0" />
+      <Label layoutX="510.0" layoutY="120.0" text="Nombre:" />
+      <Label layoutX="510.0" layoutY="180.0" text="Sexo:" />
+      <Label layoutX="510.0" layoutY="240.0" text="Fecha de nacimiento:" />
+      <Label layoutX="510.0" layoutY="300.0" text="Lugar de Procedencia:" />
+      <ComboBox fx:id="cbSexo" layoutX="570.0" layoutY="200.0" prefWidth="150.0" />
+      <Button layoutX="551.0" layoutY="550.0" mnemonicParsing="false" onAction="#addPersona" prefHeight="72.0" prefWidth="64.0" text="Se muda a Nashville" textFill="#2a8d2a" wrapText="true" />
+      <Button layoutX="685.0" layoutY="559.0" mnemonicParsing="false" onAction="#updatePersona" prefHeight="54.0" prefWidth="71.0" text="Update Persona" textFill="#1a58cd" wrapText="true" />
+      <Button layoutX="821.0" layoutY="550.0" mnemonicParsing="false" onAction="#deletePersona" prefHeight="72.0" prefWidth="101.0" text="Se pira de Nashville con su familia" textFill="RED" wrapText="true" />
+      <DatePicker fx:id="dpFechaNaci" layoutX="570.0" layoutY="260.0" />
+      <TextField fx:id="tfNombre" layoutX="570.0" layoutY="140.0" />
+      <TextField fx:id="tfLugarProcedencia" layoutX="570.0" layoutY="320.0" />
+      <Label layoutX="34.0" layoutY="93.0" text="Selecciona persona (Si quieres hacer update o quieres eliminarla):" />
+   </children>
+</AnchorPane>

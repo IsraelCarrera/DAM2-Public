@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="900.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.Consultas">
+   <children>
+      <ListView fx:id="lvPersonas" layoutX="53.0" layoutY="165.0" prefHeight="571.0" prefWidth="895.0" />
+      <Label layoutX="70.0" layoutY="90.0" text="Lugar de procedencia:" />
+      <Label layoutX="230.0" layoutY="90.0" text="Año de nacimiento: " />
+      <Label layoutX="400.0" layoutY="90.0" text="Nº Hijos:" />
+      <Label layoutX="500.0" layoutY="90.0" text="Estado Civil:" />
+      <ComboBox fx:id="cbEstadoCivil" layoutX="500.0" layoutY="110.0" prefHeight="25.0" prefWidth="107.0" />
+      <Button layoutX="745.0" layoutY="98.0" mnemonicParsing="false" onAction="#buscarPersonas" text="Buscar" />
+      <TextField fx:id="tfProcedencia" layoutX="70.0" layoutY="110.0" prefHeight="25.0" prefWidth="118.0" />
+      <TextField fx:id="tfNacimiento" layoutX="230.0" layoutY="110.0" prefHeight="25.0" prefWidth="107.0" />
+      <TextField fx:id="tfHijos" layoutX="400.0" layoutY="110.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label layoutX="79.0" layoutY="51.0" text="Si lo deja vacio, no se hará la búsqueda." />
+   </children>
+</AnchorPane>

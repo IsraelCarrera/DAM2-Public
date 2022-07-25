@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.Casamientos">
+   <children>
+      <ListView fx:id="lvMujeres" layoutX="25.0" layoutY="72.0" prefHeight="621.0" prefWidth="392.0" />
+      <ListView fx:id="lvHombres" layoutX="583.0" layoutY="72.0" prefHeight="621.0" prefWidth="392.0" />
+      <Button layoutX="454.0" layoutY="370.0" mnemonicParsing="false" onAction="#seCasan" text="Se han casado" />
+      <Label layoutX="25.0" layoutY="55.0" text="Selecciona hombre:" />
+      <Label layoutX="583.0" layoutY="55.0" text="Selecciona mujer:" />
+   </children>
+</AnchorPane>

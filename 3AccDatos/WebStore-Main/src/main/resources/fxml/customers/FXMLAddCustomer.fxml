@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.customers.FXMLAddCustomerController">
+   <children>
+      <ListView fx:id="customerList" layoutX="29.0" layoutY="92.0" prefHeight="548.0" prefWidth="665.0" />
+      <TextField fx:id="tfPassword" layoutX="746.0" layoutY="307.0" />
+      <TextField fx:id="nameBox" layoutX="747.0" layoutY="400.0" />
+      <Button layoutX="760.0" layoutY="665.0" mnemonicParsing="false" onAction="#addCustomer" text="Save new customer" />
+      <Label layoutX="746.0" layoutY="286.0" text="passWord" />
+      <Label layoutX="747.0" layoutY="378.0" text="Name" />
+      <Label layoutX="747.0" layoutY="477.0" text="Telephone" />
+      <Label layoutX="29.0" layoutY="76.0" text="Customer list:" />
+      <Label layoutX="29.0" layoutY="38.0" text="ADD A NEW CUSTOMER" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phoneBox" layoutX="746.0" layoutY="498.0" />
+      <Label layoutX="747.0" layoutY="579.0" text="Address" />
+      <TextField fx:id="addressBox" layoutX="746.0" layoutY="600.0" />
+      <Label layoutX="747.0" layoutY="198.0" text="userName" />
+      <TextField fx:id="tfUsername" layoutX="745.0" layoutY="221.0" />
+      <Label layoutX="750.0" layoutY="105.0" text="DNI" />
+      <TextField fx:id="tfDni" layoutX="746.0" layoutY="122.0" />
+   </children>
+</AnchorPane>

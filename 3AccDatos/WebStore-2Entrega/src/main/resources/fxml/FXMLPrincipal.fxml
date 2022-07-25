@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="AnchorPane" fx:id="fxRoot" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.FXMLPrincipalController">
+   <top>
+      <MenuBar fx:id="fxMenuTop" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#chargeLogin" text="Go back to login" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeWelcome" text="Welcome Pane" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Items">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#chargeAddItem" text="Add Item" />
+                  <MenuItem mnemonicParsing="false" onAction="#listItems" text="List Items" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeFindItem" text="Find by ID" />
+                  <MenuItem mnemonicParsing="false" onAction="#deleteItem" text="Delete Item" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeUpdateItem" text="Update Item" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Customers">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#chargeAddCustomer" text="Add Customer" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargelistCustomer" text="List Customers" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeFindCustomer" text="Find by ID" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeDeleteCustomer" text="Delete Customer" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeUpdateCustomer" text="Update Customer" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Purchases">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#chargePurchases" text="Add Purchase" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeDatePurchases" text="Find by Date" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeDelete" text="Delete Purchase" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeUpdatePurchase" text="Update Purchase" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Reviews">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#chargeAddReview" text="Add review" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeFindReview" text="Find by Item" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeDeleteReview" text="Delete Review" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

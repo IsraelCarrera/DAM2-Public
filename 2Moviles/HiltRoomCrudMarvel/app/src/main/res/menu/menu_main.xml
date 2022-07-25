@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuItemCrearPersonaje"
+        android:icon="@drawable/outline_add_24"
+        android:title="@string/crear_personaje"
+        app:showAsAction="always" />
+    <!-- EL ifroom sirve para si hay espacio, que se muestre el icono, sino, en texto -->
+    <item
+        android:id="@+id/menuItemOrdenarNombre"
+        android:icon="@drawable/outline_sort_by_alpha_24"
+        android:title="@string/ordenar_por_nombre"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuItemOrdenarId"
+        android:title="@string/ordenar_por_id"
+        app:showAsAction="never" />
+</menu>

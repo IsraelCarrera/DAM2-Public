@@ -1,0 +1,363 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 4,
+    "identityHash": "70485033a84df81dce60b78b469e6ad0",
+    "entities": [
+      {
+        "tableName": "PELICULA",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idPelicula` INTEGER NOT NULL, `titulo` TEXT NOT NULL, `tituloOriginal` TEXT NOT NULL, `poster` TEXT NOT NULL, `fechaEstreno` TEXT NOT NULL, `sipnosis` TEXT NOT NULL, `lenguajeOriginal` TEXT NOT NULL, `haSidoVista` INTEGER NOT NULL, PRIMARY KEY(`idPelicula`))",
+        "fields": [
+          {
+            "fieldPath": "idPelicula",
+            "columnName": "idPelicula",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "titulo",
+            "columnName": "titulo",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tituloOriginal",
+            "columnName": "tituloOriginal",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "poster",
+            "columnName": "poster",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fechaEstreno",
+            "columnName": "fechaEstreno",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sipnosis",
+            "columnName": "sipnosis",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lenguajeOriginal",
+            "columnName": "lenguajeOriginal",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "haSidoVista",
+            "columnName": "haSidoVista",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idPelicula"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "PERSONA",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idPersona` INTEGER NOT NULL, `nombrePersonaje` TEXT NOT NULL, `nombreReal` TEXT NOT NULL, `genero` TEXT NOT NULL, `foto` TEXT NOT NULL, PRIMARY KEY(`idPersona`))",
+        "fields": [
+          {
+            "fieldPath": "idPersona",
+            "columnName": "idPersona",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nombrePersonaje",
+            "columnName": "nombrePersonaje",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nombreReal",
+            "columnName": "nombreReal",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "genero",
+            "columnName": "genero",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "foto",
+            "columnName": "foto",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idPersona"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "PELICULA_PERSONA_RELACION",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idPelicula` INTEGER NOT NULL, `idPersona` INTEGER NOT NULL, PRIMARY KEY(`idPelicula`, `idPersona`))",
+        "fields": [
+          {
+            "fieldPath": "idPelicula",
+            "columnName": "idPelicula",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "idPersona",
+            "columnName": "idPersona",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idPelicula",
+            "idPersona"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "SERIE",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idSerie` INTEGER NOT NULL, `titulo` TEXT NOT NULL, `tituloOriginal` TEXT NOT NULL, `fechaEstreno` TEXT NOT NULL, `fechaFinal` TEXT NOT NULL, `poster` TEXT NOT NULL, `sipnosis` TEXT NOT NULL, `lenguajeOriginal` TEXT NOT NULL, `haSidoVista` INTEGER NOT NULL, PRIMARY KEY(`idSerie`))",
+        "fields": [
+          {
+            "fieldPath": "idSerie",
+            "columnName": "idSerie",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "titulo",
+            "columnName": "titulo",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tituloOriginal",
+            "columnName": "tituloOriginal",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fechaEstreno",
+            "columnName": "fechaEstreno",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fechaFinal",
+            "columnName": "fechaFinal",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "poster",
+            "columnName": "poster",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sipnosis",
+            "columnName": "sipnosis",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lenguajeOriginal",
+            "columnName": "lenguajeOriginal",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "haSidoVista",
+            "columnName": "haSidoVista",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idSerie"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "TEMPORADA",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idSerie` INTEGER NOT NULL, `numeroTemporada` INTEGER NOT NULL, `numeroEpisodios` INTEGER NOT NULL, `fechaEmision` TEXT NOT NULL, `nombre` TEXT NOT NULL, `sipnosis` TEXT NOT NULL, `poster` TEXT NOT NULL, `haSidoVista` INTEGER NOT NULL, PRIMARY KEY(`idSerie`, `numeroTemporada`))",
+        "fields": [
+          {
+            "fieldPath": "idSerie",
+            "columnName": "idSerie",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "numeroTemporada",
+            "columnName": "numeroTemporada",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "numeroEpisodios",
+            "columnName": "numeroEpisodios",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fechaEmision",
+            "columnName": "fechaEmision",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nombre",
+            "columnName": "nombre",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sipnosis",
+            "columnName": "sipnosis",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "poster",
+            "columnName": "poster",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "haSidoVista",
+            "columnName": "haSidoVista",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idSerie",
+            "numeroTemporada"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "CAPITULO",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idSerie` INTEGER NOT NULL, `numeroTemporada` INTEGER NOT NULL, `numeroCapitulo` INTEGER NOT NULL, `fechaEmision` TEXT NOT NULL, `nombre` TEXT NOT NULL, `sipnosis` TEXT NOT NULL, `haSidoVisto` INTEGER NOT NULL, PRIMARY KEY(`idSerie`, `numeroTemporada`, `numeroCapitulo`))",
+        "fields": [
+          {
+            "fieldPath": "idSerie",
+            "columnName": "idSerie",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "numeroTemporada",
+            "columnName": "numeroTemporada",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "numeroCapitulo",
+            "columnName": "numeroCapitulo",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fechaEmision",
+            "columnName": "fechaEmision",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nombre",
+            "columnName": "nombre",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sipnosis",
+            "columnName": "sipnosis",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "haSidoVisto",
+            "columnName": "haSidoVisto",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idSerie",
+            "numeroTemporada",
+            "numeroCapitulo"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "SERIE_PERSONA_RELACION",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idSerie` INTEGER NOT NULL, `idPersona` INTEGER NOT NULL, PRIMARY KEY(`idSerie`, `idPersona`))",
+        "fields": [
+          {
+            "fieldPath": "idSerie",
+            "columnName": "idSerie",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "idPersona",
+            "columnName": "idPersona",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idSerie",
+            "idPersona"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '70485033a84df81dce60b78b469e6ad0')"
+    ]
+  }
+}

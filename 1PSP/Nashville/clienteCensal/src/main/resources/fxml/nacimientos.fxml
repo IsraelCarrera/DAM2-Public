@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="900.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.Nacimientos">
+   <children>
+      <ListView fx:id="lvPadre" layoutX="41.0" layoutY="73.0" prefHeight="325.0" prefWidth="358.0" />
+      <ListView fx:id="lvMadre" layoutX="500.0" layoutY="73.0" prefHeight="325.0" prefWidth="358.0" />
+      <Label layoutX="41.0" layoutY="56.0" text="Selecciona al padre:" />
+      <Label layoutX="500.0" layoutY="56.0" text="Selecciona a la madre:" />
+      <Label layoutX="95.0" layoutY="440.0" text="Datos del bebe:" />
+      <Label layoutX="100.0" layoutY="470.0" text="Nombre:" />
+      <Label layoutX="100.0" layoutY="510.0" text="Sexo:" />
+      <Label layoutX="100.0" layoutY="550.0" text="Fecha de Nacimiento:" />
+      <DatePicker fx:id="dpFechaNaci" layoutX="250.0" layoutY="550.0" />
+      <ComboBox fx:id="cbSexo" layoutX="250.0" layoutY="510.0" prefWidth="150.0" />
+      <TextField fx:id="tfNombre" layoutX="250.0" layoutY="470.0" />
+      <Button layoutX="543.0" layoutY="470.0" mnemonicParsing="false" onAction="#addBebe" prefHeight="105.0" prefWidth="150.0" text="Añadir Partida de nacimiento" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

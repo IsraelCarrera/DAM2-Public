@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="daoItems">HibernateDAOItems</entry>
+    <entry key="daoCustomers">HibernateDAOCustomers</entry>
+    <entry key="daoPurchases">HibernateDAOPurchases</entry>
+    <entry key="daoReviews">HibernateDAOReviews</entry>
+    <entry key="daoUsers">DAOUsersMongo</entry>
+</properties>

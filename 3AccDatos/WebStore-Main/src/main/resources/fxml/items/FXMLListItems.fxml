@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.items.FXMLListItemsController">
+   <children>
+      <ListView fx:id="itemsList" layoutX="29.0" layoutY="89.0" onMouseClicked="#moreInfo" prefHeight="671.0" prefWidth="516.0" />
+      <Label layoutX="29.0" layoutY="73.0" text="Item list:" />
+      <Label layoutX="29.0" layoutY="38.0" text="ACME WEB STORE" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="lvReviews" layoutX="675.0" layoutY="230.0" onMouseClicked="#viewInfoReviews" prefHeight="411.0" prefWidth="286.0" />
+      <Label layoutX="593.0" layoutY="101.0" text="Price:" />
+      <Label fx:id="lbInfoMesPurchases" layoutX="594.0" layoutY="130.0" text="Number of Reviews in December:" />
+      <Label layoutX="594.0" layoutY="168.0" text="Average rating:" />
+      <Label layoutX="594.0" layoutY="221.0" text="Reviews:" />
+      <Label layoutX="628.0" layoutY="408.0" text="List by:" />
+      <ComboBox fx:id="cbListReviews" layoutX="569.0" layoutY="425.0" onAction="#listByChoose" prefHeight="25.0" prefWidth="96.0" />
+      <TextField fx:id="tfPrice" layoutX="628.0" layoutY="97.0" />
+      <TextField fx:id="tfNumberPurchases" layoutX="790.0" layoutY="126.0" />
+      <TextField fx:id="tfAverage" layoutX="689.0" layoutY="164.0" />
+   </children>
+</AnchorPane>

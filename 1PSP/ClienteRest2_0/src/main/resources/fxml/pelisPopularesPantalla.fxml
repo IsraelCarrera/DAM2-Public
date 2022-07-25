@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.PelisPopularesPantalla">
+    <children>
+        <Label layoutX="383.0" layoutY="8.0" prefHeight="37.0" prefWidth="180.0"
+               text="Listado de peliculas más populares. Indica la página: " textAlignment="JUSTIFY" wrapText="true"/>
+        <Button layoutX="713.0" layoutY="14.0" mnemonicParsing="false" onAction="#btCargar" text="Buscar"/>
+        <ComboBox fx:id="cbSelectorPag" layoutX="563.0" layoutY="14.0" prefWidth="150.0"/>
+        <ListView fx:id="lvPeliculas" layoutX="23.0" layoutY="59.0" prefHeight="404.0" prefWidth="854.0"/>
+        <Button layoutX="821.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnLimpiar" text="Limpiar"
+                textFill="#f80000"/>
+    </children>
+</AnchorPane>

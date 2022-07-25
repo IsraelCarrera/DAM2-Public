@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:id="principal" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientbasket.gui.controllers.Principal">
+    <top>
+        <MenuBar fx:id="mbSuperior" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Cuenta">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irInicio" text="Ir a pantalla de inicio"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irModificarCuenta" text="Modificar Cuenta"/>
+                        <MenuItem fx:id="miUpdateAdmin" mnemonicParsing="false" onAction="#irUpdateAdmin"
+                                  text="Updatear a Admin"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irALogging" text="Salir de la cuenta"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Partidos">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irVerPartidos" text="Ver partidos"/>
+                    </items>
+                </Menu>
+                <Menu fx:id="menuCargaDatos" mnemonicParsing="false" text="Carga de datos">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irCambiarEquipo" text="Add/Update/Delete Equipo"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irCambiarJornada"
+                                  text="Add/Update/Delete Jornada"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irAddPartido" text="Add Partido"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irCambiarPartidos" text="Update/Delete partidos"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

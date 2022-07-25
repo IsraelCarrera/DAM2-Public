@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="daoItems">SpringDAOItems</entry>
+    <entry key="daoCustomers">SpringDAOCustomers</entry>
+    <entry key="daoPurchases">SpringDAOPurchases</entry>
+    <entry key="daoReviews">SpringDAOReviews</entry>
+    <entry key="daoUsers">SpringDAOUsers</entry>
+</properties>

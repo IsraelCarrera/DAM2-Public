@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.purchases.FXMLDeletePurchasesController">
+   <children>
+      <Label layoutX="422.0" layoutY="68.0" text="Delete Purchase" textFill="#000000c9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="317.0" layoutY="103.0" text="Please, select the purchase you want to remove from the database" textFill="#000000be">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Button layoutX="241.0" layoutY="679.0" mnemonicParsing="false" onAction="#deletePurchase" prefHeight="25.0" prefWidth="519.0" text="DELETE" textFill="#a41818">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ListView fx:id="purchaseBox" layoutX="47.0" layoutY="123.0" prefHeight="545.0" prefWidth="923.0" />
+   </children>
+</AnchorPane>

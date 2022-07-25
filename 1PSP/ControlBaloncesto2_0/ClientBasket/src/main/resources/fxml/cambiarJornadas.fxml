@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.clientbasket.gui.controllers.basket.CambiarJornadas">
+    <children>
+        <ListView fx:id="lvJornada" layoutX="100.0" layoutY="160.0" onMouseClicked="#pasarDatos" prefHeight="457.0"
+                  prefWidth="298.0"/>
+        <Label layoutX="449.0" layoutY="249.0" text="Fecha de la jornada:"/>
+        <Button layoutX="424.0" layoutY="462.0" mnemonicParsing="false" onAction="#addJornada" text="Añadir jornada"/>
+        <Button layoutX="543.0" layoutY="462.0" mnemonicParsing="false" onAction="#updateJornada" text="Cambiar fecha"/>
+        <Button layoutX="690.0" layoutY="462.0" mnemonicParsing="false" onAction="#deleteJornada"
+                text="Eliminar jornada" textFill="RED"/>
+        <Label layoutX="100.0" layoutY="143.0" text="Lista de jornadas integradas en la app:"/>
+        <DatePicker fx:id="dpFechaJornada" layoutX="567.0" layoutY="245.0"/>
+        <TextField fx:id="tfIdJornada" layoutX="567.0" layoutY="211.0"/>
+        <Label layoutX="471.0" layoutY="215.0" text="ID de la jornada:"/>
+        <Label layoutX="246.0" layoutY="58.0" text="ADD/UPDATE/DELETE JORNADAS">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Label>
+    </children>
+
+</AnchorPane>

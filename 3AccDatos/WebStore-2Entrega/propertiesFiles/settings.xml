@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="Items">./Data/Items.txt</entry>
+    <entry key="Customers">./Data/customers.xml</entry>
+    <entry key="Purchases">./Data/Purchases.txt</entry>
+    <entry key="driver">com.mysql.jdbc.Driver</entry>
+    <entry key="urlDB">jdbc:mysql://dam2.mysql.iesquevedo.es:3335/israelcarreramanzaneque-webstore</entry>
+    <entry key="user_name">root</entry>
+    <entry key="password">quevedo2dam</entry>
+</properties>

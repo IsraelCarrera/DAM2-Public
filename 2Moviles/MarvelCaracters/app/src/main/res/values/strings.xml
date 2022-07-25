@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MarvelCaracters</string>
+    <string name="imagen">%s.%s</string>
+
+    <string name="archivoLectura">datos.json</string>
+    <string name="falloLectura">Error al leer el archivo</string>
+    <string name="noPersonajeLook">No hay personaje con esas letras</string>
+    <string name="DeleteTitle">BORRAR</string>
+    <string name="deleteBody">¿Seguro qué desea borrar este personaje?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+
+    <string name="personaje">Personaje</string>
+    <string name="comics">Comics</string>
+    <string name="nombre">Nombre</string>
+    <string name="id">ID</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="modificado">Modificado</string>
+    <string name="imagenurl">Imagenurl</string>
+    <string name="deshacer">Deshacer</string>
+    <string name="personajeEliminado">Personaje eliminado</string>
+</resources>

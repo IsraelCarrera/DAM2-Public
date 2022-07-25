@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="principal" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.PrincipalPantalla">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Inicio">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irInicio" text="Inicio" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Películas">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irPelisPorId" text="Buscar películas" />
+                        <MenuItem mnemonicParsing="false" onAction="#irPelisPopulares" text="Buscar películas más populares" />
+                        <MenuItem mnemonicParsing="false" onAction="#irVerColecciones" text="Ver colecciones" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Series TV">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irEncontrarSeriesId" text="Buscar Series" />
+                        <MenuItem mnemonicParsing="false" onAction="#irInfoSeriesDetallada" text="Series.Temporadas,Capitulos..." />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Personas">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irEncontrarPersonas" text="Buscar personas" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

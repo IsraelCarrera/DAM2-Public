@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/2dam/Documents/Datos/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/2dam/Documents/Datos/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_buscar_pelis.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/2dam/Documents/Datos/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_buscar_series.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/2dam/Documents/Datos/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/info_pelis_internet_fragment.xml" value="0.12135416666666667" />
+        <entry key="..\:/Users/2dam/Documents/Datos/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/menu/menu_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/2dam/Documents/Datos/dam2/2Moviles/PelisYSeriesApp2_0/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/activity_main.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/buscar_pelis_fragment.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/buscar_pelis_internet.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/buscar_series_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/buscar_series_internet.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/estar_favoritos_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_buscar_pelis.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_buscar_pelis_detallada.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_buscar_series.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_buscar_series_detallada.xml" value="0.31626235399820307" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_estar_favoritos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_favoritos_detallado.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_favoritos_detallado_serie.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/fragment_ver_capitulos_temporada.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/info_pelis_internet_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/item_actores_actuan.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/item_episodio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/item_favoritos.xml" value="0.1" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/item_generico.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/item_pelicula.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/item_temporada.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/pelicula_item.xml" value="0.2851851851851852" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/layout/serie_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/menu/menu_add_favoritos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/menu/menu_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/menu/menu_busquedas.xml" value="0.1" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/menu/menu_capitulos_temporada.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/menu/menu_detallado.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/mipmap-anydpi-v26/iconoapp.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/mipmap-anydpi-v26/serieIcono.xml" value="0.3828125" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp/app/src/main/res/xml/searchable.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp2_0/app/src/main/res/layout/fragment_buscar_pelis.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp2_0/app/src/main/res/layout/fragment_buscar_pelis_detallada.xml" value="0.26262626262626265" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp2_0/app/src/main/res/layout/fragment_buscar_series.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp2_0/app/src/main/res/layout/fragment_buscar_series_detallada.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/icman/Documents/GIT2DAM/dam2/2Moviles/PelisYSeriesApp2_0/app/src/main/res/layout/fragment_estar_favoritos.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

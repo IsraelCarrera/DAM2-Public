@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.purchases.FXMLUpdatePurchasesController">
+   <children>
+      <ListView fx:id="purchaseList" layoutX="28.0" layoutY="89.0" onMouseClicked="#showPurchases" prefHeight="280.0" prefWidth="370.0" />
+      <Button layoutX="452.0" layoutY="277.0" mnemonicParsing="false" onAction="#updatePurchase" text="Update purchase" />
+      <Label layoutX="423.0" layoutY="93.0" text="Customer" />
+      <Label layoutX="423.0" layoutY="149.0" text="Item" />
+      <Label layoutX="28.0" layoutY="73.0" text="Purchase list:" />
+      <DatePicker fx:id="dateBox" layoutX="423.0" layoutY="224.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="423.0" layoutY="205.0" text="Date of the purchase" />
+      <Label layoutX="28.0" layoutY="38.0" text="UPDATE PURCHASE" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customerBox" layoutX="423.0" layoutY="117.0" />
+      <TextField fx:id="itemBox" layoutX="423.0" layoutY="166.0" />
+   </children>
+</AnchorPane>

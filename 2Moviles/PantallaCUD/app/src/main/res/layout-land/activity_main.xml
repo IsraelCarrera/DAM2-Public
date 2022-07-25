@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        app:layout_constraintStart_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal1"
+        app:startIconContentDescription="Icon_Face"
+        app:startIconDrawable="@drawable/outline_face_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tfNombre"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass"
+        app:endIconMode="password_toggle"
+        app:layout_constraintStart_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@id/glHorizontal2"
+        app:startIconContentDescription="Icon_Pass"
+        app:startIconDrawable="@drawable/outline_coronavirus_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tfPass"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tlfn"
+
+        app:layout_constraintStart_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@id/glHorizontal3"
+        app:startIconDrawable="@drawable/outline_phone_iphone_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tfTelefono"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail"
+        app:layout_constraintStart_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal4"
+        app:startIconContentDescription="Icon_Correo"
+        app:startIconDrawable="@drawable/outline_email_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tfEmail"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            app:errorEnabled="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/rgSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/glHorizontal2"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical2">
+        <RadioButton
+            android:id="@+id/rbSexoHombre"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hm"
+            app:layout_constraintEnd_toStartOf="@+id/rbSexoMujer" />
+
+        <RadioButton
+            android:id="@+id/rbSexoMujer"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mj" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cbConsolas"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/consola"
+        app:layout_constraintBottom_toTopOf="@+id/glHorizontal3"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical2" />
+
+    <CheckBox
+        android:id="@+id/cbPc"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pc"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical2"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal3" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/smSuscribe"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:checked="true"
+        android:text="@string/suscribe"
+        app:layout_constraintBottom_toTopOf="@+id/glHorizontal3"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal2"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/tvSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/pickSexo"
+        app:layout_constraintBottom_toTopOf="@+id/glHorizontal2"
+        app:layout_constraintEnd_toStartOf="@+id/rgSexo" />
+
+    <TextView
+        android:id="@+id/tvPreferencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pickPlay"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical2"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal2" />
+
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/verde"
+        android:text="@string/add"
+        app:icon="@drawable/outline_group_add_24"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout2"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal4" />
+
+    <Button
+        android:id="@+id/btDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="@string/del"
+        app:icon="@drawable/outline_person_off_24"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical2"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal4" />
+
+    <Button
+        android:id="@+id/btUpdate"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upd"
+        app:icon="@drawable/outline_edit_24"
+        app:layout_constraintEnd_toStartOf="@+id/btDelete"
+        app:layout_constraintStart_toEndOf="@+id/btAdd"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal4" />
+
+    <Button
+        android:id="@+id/btAtras"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/outline_undo_24"
+        app:layout_constraintStart_toEndOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal8" />
+
+    <Button
+        android:id="@+id/btDelante"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/outline_redo_24"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical2"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal8" />
+
+
+    <TextView
+        android:id="@+id/tvContador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/btDelante"
+        app:layout_constraintStart_toEndOf="@+id/btAtras"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal8" />
+
+    <TextView
+        android:id="@+id/tvLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/btDelante"
+        app:layout_constraintStart_toEndOf="@+id/btAtras"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVertical1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVertical2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="659dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="68dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="137dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="205dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="359dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="477dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="536dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="286dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

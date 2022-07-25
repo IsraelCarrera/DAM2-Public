@@ -1,0 +1,33 @@
+{
+  "id_item": 1,
+  "name": "nombreItem",
+  "company": "compañía",
+  "price": 10.2,
+  "purchases": [
+    {
+      "id_purchase": 1,
+      "date": "10/10/2021"
+    },
+    {
+     "id_purchase": 2,
+      "date" : "24/01/2022"
+    }
+  ],
+  "reviews": [
+    {
+      "id_review": 1,
+      "name_customer": "pepe",
+      "title": "Titulo1",
+      "description": "Descripción1",
+      "rating": 5,
+      "date": "23/01/2022"
+    },
+    {
+      "name_customer": "pepe",
+      "title": "Titulo2",
+      "description": "Descripción2",
+      "rating": 4,
+      "date": "21/01/2022"
+    }
+  ]
+}

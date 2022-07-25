@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PrimeraApp</string>
+    <string name="pass">Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="acc">Acceder</string>
+    <string name="welcome">Bienvenido a la nueva APP</string>
+</resources>

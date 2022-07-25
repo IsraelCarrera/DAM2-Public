@@ -1,0 +1,16 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(½çÿ“ıÿÿÿÿ
+V	java:S125 "<This block of commented-out lines of code should be removed.(¸ö¸šüÿÿÿÿ
+]
+java:S1128"BRemove this unused import 'com.mongodb.client.model.Accumulators'.(¯˜Èƒşÿÿÿÿ
+U
+java:S1128"@Remove this unused import 'com.mongodb.client.model.Aggregates'.(ëÚÿ<
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+\
+java:S1128"FRemove this unused import 'com.mongodb.client.model.Accumulators.avg'.(ìÜøò
+a
+java:S1128"FRemove this unused import 'com.mongodb.client.model.Accumulators.sum'.(ÌÜäâùÿÿÿÿ
+V
+java:S1128"@Remove this unused import 'com.mongodb.client.model.Filters.eq'.(©§›
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹×äÍÿÿÿÿÿ

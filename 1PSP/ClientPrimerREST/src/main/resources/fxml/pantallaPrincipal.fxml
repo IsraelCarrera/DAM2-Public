@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:id="principal" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.PantallaPrincipal">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Inicio">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irInicio" text="Inicio"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Ver todo">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irVerTodo" text="Ver todo"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Empresas">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irVerEmpresa" text="Ver una empresa"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irAddEmpresa" text="Add empresa"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irUpdateEmpresa" text="Update empresa"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irDeleteEmpresa" text="Delete empresa"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Trabajadores">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#irVerTrabajador" text="Ver un trabajador"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irAddTrabajador" text="Add trabajador"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irUpdateTrabajador" text="Update trabajador"/>
+                        <MenuItem mnemonicParsing="false" onAction="#irDeleteTrabajador" text="Delete trabajador"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

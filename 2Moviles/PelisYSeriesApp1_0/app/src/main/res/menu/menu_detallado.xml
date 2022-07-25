@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Menufavorito"
+        android:icon="@drawable/ic_baseline_star_outline_24"
+        android:title="@string/add_favorito"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/MenuVista"
+        android:icon="@drawable/ic_baseline_tv_24"
+        android:title="@string/ha_sido_visto"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+</menu>

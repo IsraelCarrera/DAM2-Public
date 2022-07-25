@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.customers.FXMLdeleteCustomerController">
+   <children>
+      <Label layoutX="380.0" layoutY="67.0" text="Delete Customer" textFill="#000000b9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="109.0" text="Please, select the customer you want to remove from the database" textFill="#000000be">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="241.0" layoutY="666.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="25.0" prefWidth="519.0" text="DELETE" textFill="#a41818">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ListView fx:id="customerBox" layoutX="43.0" layoutY="128.0" prefHeight="524.0" prefWidth="938.0" />
+   </children>
+</AnchorPane>

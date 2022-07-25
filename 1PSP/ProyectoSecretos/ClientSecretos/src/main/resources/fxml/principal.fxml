@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="principal" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.clientsecretos.gui.controllers.Principal">
+   <top>
+      <MenuBar fx:id="idMenuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Menu">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#irLoggin" text="DesLoggear" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Secretos">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#irASecretos" text="Crear/Consultar/Compartir Secretos" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

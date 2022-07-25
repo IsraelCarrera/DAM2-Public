@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="AnchorPane" fx:id="fxRoot" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.FXMLPrincipalController">
+   <top>
+      <MenuBar fx:id="fxMenuTop" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#chargeLogin" text="Go back to login" />
+                  <MenuItem mnemonicParsing="false" onAction="#chargeWelcome" text="Welcome Pane" />
+            </items>
+          </Menu>
+            <Menu fx:id="menuItems" mnemonicParsing="false" text="Items">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#chargeAddItem" text="Add Item" />
+                  <MenuItem mnemonicParsing="false" onAction="#listItems" text="List Items" />
+                  <MenuItem mnemonicParsing="false" onAction="#deleteItem" text="Delete Item" />
+<!--                  <MenuItem fx:id="miUpdateItem" mnemonicParsing="false" onAction="#chargeUpdateItem" text="Update Item" />-->
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Customers">
+              <items>
+                <MenuItem fx:id="miAddCustomer" mnemonicParsing="false" onAction="#chargeAddCustomer" text="Add Customer" />
+                  <MenuItem fx:id="miListCustuomer" mnemonicParsing="false" onAction="#chargeListCustomer" text="List Customers" />
+                  <MenuItem fx:id="miDeleteCustomer" mnemonicParsing="false" onAction="#chargeDeleteCustomer" text="Delete Customer" />
+<!--                  <MenuItem fx:id="miUpdateCustomer" mnemonicParsing="false" onAction="#chargeUpdateCustomer" text="Update Customer" />-->
+              </items>
+            </Menu>
+            <Menu fx:id="menuPurchases" mnemonicParsing="false" text="Purchases">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#chargePurchases" text="Add Purchase" />
+<!--                  <MenuItem fx:id="miListPurchase" mnemonicParsing="false" onAction="#chargeListPurchase" text="List Purchase" />-->
+                  <MenuItem mnemonicParsing="false" onAction="#chargeDeletePurchases" text="Delete Purchase" />
+<!--                  <MenuItem fx:id="miUpdatePurchase" mnemonicParsing="false" onAction="#chargeUpdatePurchase" text="Update Purchase" />-->
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Reviews">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#chargeAddReview" text="Add review" />
+<!--                  <MenuItem fx:id="miListReview" mnemonicParsing="false" onAction="#chargeListReview" text="List Review" />-->
+                  <MenuItem fx:id="miDeleteReview" mnemonicParsing="false" onAction="#chargeDeleteReview" text="Delete Review" />
+<!--                  <MenuItem fx:id="miUpdateReview" mnemonicParsing="false" onAction="#chargeUpdateReview" text="Update Review" />-->
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

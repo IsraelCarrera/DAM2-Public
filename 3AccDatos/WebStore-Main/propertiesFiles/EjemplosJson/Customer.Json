@@ -1,0 +1,37 @@
+{
+  "_id":"111",
+  "name": "NombreCustomer",
+  "Telephone": "123456789",
+  "Address": {
+    "calle": "asda",
+    "ciudad": "sss",
+    "CP": "28001"
+  },
+  "purchases": [
+    {
+      "id_purchase": 1,
+      "date": "10/10/2021",
+      "id_Item": 1,
+      "reviews":
+        {
+          "id_review": 2,
+          "title": "Titulo2",
+          "description": "Descripción2",
+          "rating": 4,
+          "date": "21/01/2022"
+        }
+    },
+    {
+      "id_purchase": 2,
+      "date" : "24/01/2022",
+      "id_Item": 1,
+      "reviews":
+        {
+          "title": "Titulo2",
+          "description": "Descripción2",
+          "rating": 4,
+          "date": "21/01/2022"
+        }
+    }
+  ]
+}

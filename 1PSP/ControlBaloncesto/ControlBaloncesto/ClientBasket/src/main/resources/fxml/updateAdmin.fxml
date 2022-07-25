@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientbasket.gui.controllers.UpdateAdmin">
+    <children>
+        <ListView fx:id="lvUsuarios" layoutX="75.0" layoutY="189.0" prefHeight="462.0" prefWidth="377.0"/>
+        <Label layoutX="286.0" layoutY="51.0" text="CAMBIAR USUARIOS">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Label>
+        <Button layoutX="737.0" layoutY="198.0" mnemonicParsing="false" onAction="#hacerAdmin" text="Hacer admin"/>
+        <Button layoutX="737.0" layoutY="294.0" mnemonicParsing="false" onAction="#eliminarUsuario" text="Eliminar"
+                textFill="RED"/>
+        <Label layoutX="561.0" layoutY="202.0" text="Hacer al usuario Administrador:"/>
+        <Label layoutX="633.0" layoutY="298.0" text="Eliminar usuario:"/>
+        <Label layoutX="75.0" layoutY="172.0" text="Selecciona un usuario y posteriormente la opción adecuada"/>
+    </children>
+</AnchorPane>

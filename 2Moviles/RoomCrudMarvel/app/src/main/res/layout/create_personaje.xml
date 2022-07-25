@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.personajes.CrearPersonaje">
+
+    <!-- Textos con etiqueta, no cambios. -->
+    <TextView
+        android:id="@+id/tvEtiquetaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal1" />
+
+    <TextView
+        android:id="@+id/tvEtiquetaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal2" />
+
+    <TextView
+        android:id="@+id/tvEtiquetaDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal3" />
+
+    <!-- Texto que cambia, que se pinta en el código -->
+
+    <TextView
+        android:id="@+id/tvEtiquetaModificado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/modificado"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal4" />
+
+    <TextView
+        android:id="@+id/tvNombreComic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_comic"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal6" />
+
+    <TextView
+        android:id="@+id/tvIdComic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/idcomic"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal6" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/glVertical2"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal1" />
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/glVertical2"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal2" />
+
+    <EditText
+        android:id="@+id/etModificado"
+        android:layout_width="258dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="date"
+        android:maxLines="1"
+        app:layout_constraintStart_toStartOf="@+id/glVertical3"
+        app:layout_constraintTop_toBottomOf="@+id/tvEtiquetaModificado" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="275dp"
+        android:layout_height="113dp"
+        app:layout_constraintStart_toStartOf="@+id/glVertical2"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal3" />
+
+    <!-- Líneas guias para ayudar.-->
+
+    <EditText
+        android:id="@+id/etNombreComic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreComic" />
+
+    <EditText
+        android:id="@+id/etIdComic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toBottomOf="@+id/tvIdComic" />
+
+    <Button
+        android:id="@+id/bnCrear"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/verde"
+        app:icon="@drawable/outline_add_24"
+        app:layout_constraintStart_toStartOf="@+id/glVertical2"
+        app:layout_constraintTop_toBottomOf="@+id/rvComics" />
+
+    <Button
+        android:id="@+id/bnAddComic"
+        android:layout_width="90dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/amarillo"
+        android:text="@string/add_comic"
+        app:layout_constraintStart_toStartOf="@+id/glVertical2"
+        app:layout_constraintTop_toBottomOf="@+id/rvComics" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvComics"
+        android:layout_width="191dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toStartOf="@+id/glVertical1"
+        app:layout_constraintTop_toTopOf="@+id/glHorizontal6"
+        tools:listitem="@layout/comics_item" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVertical1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="87dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVertical2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="109dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="26dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="69dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="114dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="220dp" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="29dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVertical3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHorizontal6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="365dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PelisColeccionesPantalla">
+    <children>
+        <TextField fx:id="tfIdPelicula" layoutX="265.0" layoutY="38.0" />
+        <Button layoutX="414.0" layoutY="38.0" mnemonicParsing="false" onAction="#buscarPelicula" text="Buscar" />
+        <ListView fx:id="lvPelicula" layoutX="64.0" layoutY="223.0" prefHeight="55.0" prefWidth="873.0" />
+        <Button fx:id="btnVerColecciones" layoutX="416.0" layoutY="315.0" mnemonicParsing="false" onAction="#mostrarColeciones" text="Ver Colecciones" textFill="#35861c" />
+        <ListView fx:id="lvColecciones" layoutX="64.0" layoutY="366.0" prefHeight="252.0" prefWidth="873.0" />
+        <Label layoutX="156.0" layoutY="42.0" text="Indique la película:" />
+        <Button layoutX="500.0" layoutY="38.0" mnemonicParsing="false" onAction="#btnLimpiar" text="Limpiar" textFill="RED" />
+      <Button layoutX="419.0" layoutY="183.0" mnemonicParsing="false" onAction="#btnCargarPeliSelec" text="Cargar película" />
+      <ListView fx:id="lvPeliBuscador" layoutX="64.0" layoutY="81.0" prefHeight="81.0" prefWidth="873.0" />
+    </children>
+</AnchorPane>

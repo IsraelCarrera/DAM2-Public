@@ -1,0 +1,7 @@
+{
+  "_id":"111",
+  "dni": "12122S",
+  "username": "username del customer",
+  "password": "pass del customer",
+  "user_type": "Admin"
+}

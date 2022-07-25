@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SeriesMasInformacionPantalla">
+    <ListView fx:id="lvSerie" layoutX="21.0" layoutY="36.0" prefHeight="93.0" prefWidth="471.0" />
+    <ListView fx:id="lvTemporadas" layoutX="21.0" layoutY="150.0" prefHeight="200.0" prefWidth="471.0" />
+    <ListView fx:id="lvCapitulos" layoutX="21.0" layoutY="366.0" prefHeight="254.0" prefWidth="471.0" />
+    <ListView fx:id="lvCast" layoutX="597.0" layoutY="229.0" prefHeight="399.0" prefWidth="289.0" />
+    <Button layoutX="501.0" layoutY="325.0" mnemonicParsing="false" onAction="#verCapitulos" text="Ver Capitulos" />
+    <Button layoutX="517.0" layoutY="481.0" mnemonicParsing="false" onAction="#verCast" text="Ver Cast" />
+    <Button layoutX="757.0" layoutY="41.0" mnemonicParsing="false" onAction="#buscarSerie" text="Buscar " />
+    <TextField fx:id="tfBuscarSerie" layoutX="523.0" layoutY="41.0" prefHeight="25.0" prefWidth="233.0" />
+    <Button layoutX="839.0" layoutY="41.0" mnemonicParsing="false" onAction="#limpiarAll" text="Limpiar todo" textFill="RED" />
+    <Button layoutX="505.0" layoutY="523.0" mnemonicParsing="false" onAction="#limpiarCast" text="Limpiar Cast" textFill="RED" />
+    <Button layoutX="510.0" layoutY="366.0" mnemonicParsing="false" onAction="#limpiarCapitulos" prefHeight="51.0" prefWidth="69.0" text="Limpiar capítulos" textFill="RED" wrapText="true" />
+    <Label fx:id="lbSipnosis" layoutX="27.0" layoutY="645.0" prefHeight="107.0" prefWidth="854.0" wrapText="true" />
+    <Button layoutX="507.0" layoutY="603.0" mnemonicParsing="false" onAction="#ponerSipnosis" text="Ver Sipnosis" />
+   <Button layoutX="497.0" layoutY="189.0" mnemonicParsing="false" onAction="#verTemporada" text="Ver temporadas" />
+</AnchorPane>

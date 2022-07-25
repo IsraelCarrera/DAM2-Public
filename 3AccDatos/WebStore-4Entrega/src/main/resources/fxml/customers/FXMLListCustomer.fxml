@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.customers.FXMLListCustomerController">
+   <children>
+      <ListView fx:id="customerList" layoutX="29.0" layoutY="89.0" onMouseClicked="#showInfo" prefHeight="665.0" prefWidth="521.0" />
+      <Label layoutX="29.0" layoutY="73.0" text="Customers list:" />
+      <Label layoutX="29.0" layoutY="38.0" text="ACME WEB STORE" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPhone" layoutX="749.0" layoutY="172.0" prefHeight="25.0" prefWidth="160.0" />
+      <TextField fx:id="tfAddress" layoutX="749.0" layoutY="214.0" prefHeight="94.0" prefWidth="160.0" />
+      <ListView fx:id="lvPurchases" layoutX="629.0" layoutY="335.0" prefHeight="433.0" prefWidth="336.0" />
+      <Label layoutX="749.0" layoutY="155.0" text="Phone:" />
+      <Label layoutX="749.0" layoutY="197.0" text="Address:" />
+      <Label layoutX="629.0" layoutY="318.0" text="Purchase Lists:" />
+      <TextField fx:id="tfName" layoutX="749.0" layoutY="123.0" prefHeight="25.0" prefWidth="160.0" />
+      <Label layoutX="749.0" layoutY="106.0" text="Name:" />
+   </children>
+</AnchorPane>

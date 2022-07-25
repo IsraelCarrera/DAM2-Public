@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.trabajador.AddTrabajador">
+    <children>
+        <Label layoutX="374.0" layoutY="124.0" text="DNI:"/>
+        <Label layoutX="363.0" layoutY="154.0" text="Nombre:"/>
+        <Label layoutX="285.0" layoutY="184.0" text="Fecha Nacimiento:"/>
+        <Label layoutX="348.0" layoutY="214.0" text="Dirección:"/>
+        <Label layoutX="300.0" layoutY="246.0" text="Puesto de trabajo:"/>
+        <Label layoutX="228.0" layoutY="284.0" text="Seleccione la empresa:"/>
+        <Label layoutX="196.0" layoutY="46.0" prefHeight="53.0" prefWidth="367.0" text="AÑADIR TRABAJADOR"
+               textFill="#d74a4a">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="tfDni" layoutX="411.0" layoutY="120.0"/>
+        <TextField fx:id="tfNombre" layoutX="411.0" layoutY="150.0"/>
+        <TextField fx:id="tfDireccion" layoutX="411.0" layoutY="210.0"/>
+        <ListView fx:id="lvEmpresas" layoutX="363.0" layoutY="284.0" prefHeight="200.0" prefWidth="200.0"/>
+        <TextField fx:id="tfPuestoTrabajo" layoutX="411.0" layoutY="242.0" prefWidth="150.0"/>
+        <DatePicker fx:id="tfFecha" layoutX="386.0" layoutY="180.0"/>
+        <Button layoutX="583.0" layoutY="475.0" mnemonicParsing="false" onAction="#addTrabajador"
+                text="Add Trabajador"/>
+    </children>
+</AnchorPane>

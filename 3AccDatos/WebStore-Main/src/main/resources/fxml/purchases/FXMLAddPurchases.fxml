@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.purchases.FXMLAddPurchasesController">
+   <children>
+      <ListView fx:id="purchaseList" layoutX="28.0" layoutY="89.0" prefHeight="658.0" prefWidth="759.0" />
+      <ComboBox fx:id="itemBox" layoutX="805.0" layoutY="321.0" prefWidth="150.0" />
+      <Button layoutX="836.0" layoutY="572.0" mnemonicParsing="false" onAction="#addPurchase" text="Add purchase" />
+      <Label layoutX="805.0" layoutY="191.0" text="Customer" />
+      <Label layoutX="805.0" layoutY="303.0" text="Item" />
+      <Label layoutX="28.0" layoutY="73.0" text="Purchase list:" />
+      <DatePicker fx:id="dateBox" layoutX="806.0" layoutY="445.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="806.0" layoutY="426.0" text="Date of the purchase" />
+      <Label layoutX="28.0" layoutY="38.0" text="ADD A NEW PURCHASE" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="customerBox" layoutX="805.0" layoutY="215.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

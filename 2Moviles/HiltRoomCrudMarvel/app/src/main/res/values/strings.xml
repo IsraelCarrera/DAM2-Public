@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RoomCrudMarvel</string>
+    <string name="noPersonajeLook">No hay personaje con esas letras</string>
+    <string name="DeleteTitle">BORRAR</string>
+    <string name="deleteBody">¿Seguro qué desea borrar este personaje?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="personaje">Personaje</string>
+    <string name="comics">Comics</string>
+    <string name="nombre">Nombre</string>
+    <string name="id">ID</string>
+    <string name="descripcion">Descripción</string>
+    <string name="modificado">Modificado</string>
+    <string name="imagenurl">Imagenurl</string>
+    <string name="personajeEliminado">Personaje eliminado</string>
+    <string name="UpdateExitoso">Personaje cambiada con éxito</string>
+    <string name="nombreComic">Nombre Comic</string>
+    <string name="idComic">IdComic</string>
+    <string name="addComic">Add Comic</string>
+    <string name="addPersonaje">AddPersonaje</string>
+    <string name="noInfoComic">No ha agregado información del comic</string>
+    <string name="noAddPersonaje">No se puede añadir personaje porque hay algun campo vacio, compruebalo.</string>
+    <string name="imagenAdd">http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg</string>
+    <string name="addCorrectamente">Personaje añadido correctamente</string>
+    <string name="ordenar_por_id">Ordenar por id</string>
+    <string name="crear_personaje">Crear personaje</string>
+    <string name="ordenar_por_nombre">Ordenar por nombre</string>
+    <string name="ordenando_nombre">Ordenando por nombre</string>
+    <string name="ordenando_id">Ordenando por ID</string>
+    <string name="patterDate">yyyy-MM-dd</string>
+    <string name="datePicker">datePicker</string>
+    <string name="formato_fecha">%s-%s-%s</string>
+</resources>

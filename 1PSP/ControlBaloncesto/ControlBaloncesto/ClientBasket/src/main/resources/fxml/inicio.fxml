@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientbasket.gui.controllers.Inicio">
+   <children>
+      <Label fx:id="lbInicio" layoutX="227.0" layoutY="212.0" prefHeight="267.0" prefWidth="568.0" text="¡Bienvenid@ a la applicación de BasketQuevedo!" textFill="#ab7474" wrapText="true">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
